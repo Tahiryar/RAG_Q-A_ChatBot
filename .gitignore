@@ -1,0 +1,27 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Tests and tooling
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Runtime data (folders are kept with .gitkeep)
+data/uploads/*
+data/chroma_db/*
+!data/uploads/.gitkeep
+!data/chroma_db/.gitkeep
+
+# Temporary / editor files
+*.tmp
+*.log
+.vscode/
+.idea/
+.DS_Store
